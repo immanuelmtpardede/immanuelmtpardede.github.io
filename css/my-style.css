@@ -1,0 +1,245 @@
+body{
+    background-image: url("../img/background.png");
+}
+
+.container{
+    position: relative;
+    width: 1000px;
+    height: 4700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    border-left: 5px dashed rgba(0, 0, 0, 0.5);
+    border-right: 5px dashed rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.biodata{
+    width: 900px;
+    height: 550px;
+    background-image: url("../img/bg-biodata.jpg");
+    background-size: cover;
+    margin: 50px auto;
+    overflow: auto;
+}
+
+.biodata img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 360px;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.biodata img:hover{
+    border-color: rgba(0, 255, 255, 0.5);
+}
+
+.biodata h1{
+    width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.biodata h1:hover{
+    background-color: rgba(0, 255, 255, 0.5);
+}
+
+.biodata p{
+    width: 700px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.biodata p:hover{
+    color: black;
+}
+
+.btn-skill{
+    position: fixed;
+    top: 50px;
+    left: 30px;
+}
+
+.btn-character{
+    position: fixed;
+    top: 100px;
+    left: 30px;
+}
+
+.btn-award{
+    position: fixed;
+    top: 150px;
+    left: 30px;
+}
+
+.btn-experience{
+    position: fixed;
+    top: 200px;
+    left: 30px;
+}
+
+.btn-education{
+    position: fixed;
+    top: 250px;
+    left: 30px;
+}
+
+.btn-social-media{
+    position: fixed;
+    top: 300px;
+    left: 30px;
+}
+
+.btn-up{
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+}
+
+.btn-skill:hover, .btn-character:hover, .btn-award:hover, .btn-experience:hover, .btn-education:hover, .btn-social-media:hover, .btn-up:hover{
+    left: 40px;
+}
+
+.btn-skill img, .btn-character img, .btn-award img, .btn-experience img, .btn-education img, .btn-social-media img{
+    height: 35px;
+}
+
+.download{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.visual-tree{
+    position: absolute;
+    top: 1475px;
+    right: 0;
+    width: 500px;
+    height: 500px;
+    background-image: url("../img/visual-tree.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.visual-flowers-bees{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1000px;
+    height: 250px;
+    background-image: url("../img/visual-flowers-bees.png");
+    background-size: contain;
+}
+
+.contact{
+    width: 900px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto 50px auto;
+    border: 20px solid rgba(0, 0, 0, 0.5);
+    border-radius: 180px;
+    padding: 10px 0;
+}
+
+.contact:hover{
+    border-color: rgba(0, 255, 255, 0.5);
+}
+
+.contact img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact .link a{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    width: 900px;
+    height: 3355px;
+    background-color: white;
+    border-top: 20px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 20px solid rgba(0, 0, 0, 0.5);
+    border-radius: 70px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+#skill, #character, #award, #experience, #education, #social-media{
+    margin-bottom: 150px;
+}
+
+#skill img, #character img, #award img, #experience img, #education img, #social-media img{
+    display: block;
+    height: 100px;
+    margin: 0 0 30px 50px;
+}
+
+#skill ol{
+    font-size: 30px;
+    margin-left: 75px;
+}
+
+#character ul{
+    font-size: 30px;
+    margin-left: 75px;
+}
+
+table{
+    margin: 0 20px 0 20px;
+}
+
+tr, td{
+    font-size: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.desc:hover{
+    color: black;
+}
+
+.desc{
+    color: grey;
+    text-align: justify;
+}
+
+.link{
+    width: 900px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.link a:hover{
+    font-weight: 1000;
+}
+
+#social-media .link a img{
+    margin: 50px auto 20px auto;
+}
